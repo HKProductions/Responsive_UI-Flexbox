@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    font-family: fantasy;
+    width: 300px;
+    text-align: center;
+    border-bottom: 5px solid purple;
+    border-right: 3px solid purple;
+    box-shadow: 3px 5px #8888;
+}
+
+img{
+    width: 500px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
